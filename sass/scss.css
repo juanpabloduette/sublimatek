@@ -227,14 +227,12 @@ a:hover span:nth-child(4) {
   width: 0%;
   height: 100%;
   background-color: var(--secondary-color);
-  /**box-shadow: 0 5px 25px var(--secondary-color);**/
 }
 
 /** HEADER ABAJO**/
 .abajo {
   background: -webkit-gradient(linear, left top, right top, from(#52c4df), to(#ad55c1));
   background: linear-gradient(90deg, #52c4df, #ad55c1);
-  /**background-color: #52c4df;**/
   padding: 0px;
   -webkit-box-shadow: 0 2px 5px var(--secondary-color);
           box-shadow: 0 2px 5px var(--secondary-color);
@@ -334,9 +332,9 @@ a:hover span:nth-child(4) {
 
 #scroll-btn {
   position: absolute;
-  height: 5em;
-  width: 1.4em;
-  border: 0.19em solid black;
+  height: 5.5em;
+  width: 1.5em;
+  border: 0.18em solid black;
   margin: auto;
   left: 0;
   right: 0;
@@ -433,14 +431,15 @@ a:hover span:nth-child(4) {
 }
 
 .section2-texto h3 {
-  font-size: 2em;
-  font-weight: 400;
+  font-size: 2.4em;
+  font-weight: 200;
+  line-height: 130%;
 }
 
 .section2-texto p {
   font-family: 'Didact Gothic', sans-serif;
   font-size: 18px;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .cajainvi {
@@ -477,8 +476,9 @@ a:hover span:nth-child(4) {
 }
 
 .section2-textoinvi h3 {
-  font-size: 2em;
-  font-weight: 400;
+  font-size: 2.4em;
+  font-weight: 200;
+  line-height: 130%;
 }
 
 .section3 {
@@ -551,6 +551,7 @@ a:hover span:nth-child(4) {
 .section3-parrafo p {
   font-family: 'Didact Gothic', sans-serif;
   font-size: 18px;
+  line-height: 150%;
 }
 
 .barra {
@@ -609,8 +610,9 @@ a:hover span:nth-child(4) {
 }
 
 .section4-parrafo h2 {
-  font-size: 2em;
-  font-weight: 400;
+  font-size: 2.4em;
+  font-weight: 200;
+  line-height: 130%;
 }
 
 .section4-parrafo p {
@@ -653,6 +655,7 @@ a:hover span:nth-child(4) {
 .card i {
   font-size: 4em;
   padding: 20px;
+  color: #3c4046;
 }
 
 .card h4 {
@@ -664,6 +667,7 @@ a:hover span:nth-child(4) {
 .card p {
   font-family: 'Didact Gothic', sans-serif;
   font-size: 1em;
+  color: #3c4046;
 }
 
 .section6 {
@@ -843,13 +847,14 @@ a:hover span:nth-child(4) {
           align-items: center;
 }
 
-.logogrande {
+.logogrande img {
+  width: 100%;
   padding: 10px;
-  font-size: 20px;
 }
 
 .soy {
   max-width: 600px;
+  padding: 20px;
 }
 
 .section9 {
@@ -1313,6 +1318,13 @@ a:hover span:nth-child(4) {
   .proyectos img {
     margin: 20px;
   }
+  .section8bis-container {
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .section9-container {
     padding: 40px;
     display: -webkit-box;
@@ -1340,17 +1352,17 @@ a:hover span:nth-child(4) {
     font-size: 2.5em;
     padding: 10px;
   }
-  .section2-texto h3 {
-    font-size: 1.3em;
+  .section2-texto h3,
+  .section2-textoinvi h3,
+  .section4-parrafo h2 {
+    font-size: 1.4em;
+    font-weight: 300;
   }
   .section2-texto {
     padding: 0px;
-    padding-top: 80px;
+    padding-top: 60px;
     padding-bottom: 20px;
     width: 100%;
-  }
-  .section2-textoinvi h3 {
-    font-size: 1.3em;
   }
   .section2-textoinvi {
     padding-top: 10px;
@@ -1375,9 +1387,6 @@ a:hover span:nth-child(4) {
   .section3-parrafo h3 {
     font-size: 2em;
     margin-bottom: 10px;
-  }
-  .section4-parrafo h2 {
-    font-size: 1.3em;
   }
   .section5-container {
     display: -ms-grid;
@@ -1408,13 +1417,6 @@ a:hover span:nth-child(4) {
   }
   .datoscontacto p {
     font-size: 50px;
-  }
-  .section8bis-container {
-    width: 90%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
 }
 
