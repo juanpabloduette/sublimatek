@@ -332,13 +332,13 @@ a:hover span:nth-child(4) {
 
 #scroll-btn {
   position: absolute;
-  height: 5.5em;
-  width: 1.5em;
-  border: 0.18em solid black;
+  height: 5em;
+  width: 2em;
+  border: 0.15em solid black;
   margin: auto;
   left: 0;
   right: 0;
-  bottom: -10em;
+  bottom: -8em;
   border-radius: 3em;
 }
 
@@ -349,11 +349,11 @@ a:hover span:nth-child(4) {
   left: 0;
   right: 0;
   height: 0.9em;
-  width: 0.9em;
+  width: 0.5em;
   background-color: black;
-  border-radius: 50%;
-  -webkit-animation: move-down 2s infinite;
-          animation: move-down 2s infinite;
+  border-radius: 40%;
+  -webkit-animation: move-down 1.5s infinite;
+          animation: move-down 1.5s infinite;
 }
 
 @-webkit-keyframes move-down {
@@ -470,7 +470,6 @@ a:hover span:nth-child(4) {
 }
 
 .section2-textoinvi p {
-  text-align: justify;
   font-family: 'Didact Gothic', sans-serif;
   font-size: 18px;
 }
@@ -653,7 +652,7 @@ a:hover span:nth-child(4) {
 }
 
 .card i {
-  font-size: 4em;
+  font-size: 3.5em;
   padding: 20px;
   color: #3c4046;
 }
@@ -1102,7 +1101,6 @@ a:hover span:nth-child(4) {
 }
 
 .cajafooter {
-  padding-top: 40px;
   background-color: #f8f8f8;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1110,10 +1108,19 @@ a:hover span:nth-child(4) {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
 }
 
 .cajafooter h4 {
   padding: 5px;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 .footer {
@@ -1204,6 +1211,7 @@ a:hover span:nth-child(4) {
             flex-direction: column-reverse;
     margin-top: 0px;
     margin-bottom: 0px;
+    width: 80%;
   }
   .section2-imagen img {
     width: 100%;
@@ -1218,11 +1226,11 @@ a:hover span:nth-child(4) {
     padding: 0px;
     padding-top: 80px;
     padding-bottom: 20px;
-    width: 70%;
+    width: 90%;
   }
   .section2-textoinvi {
     padding: 0;
-    width: 80%;
+    width: 90%;
     margin-top: 40px;
   }
   .section4-container {
@@ -1316,7 +1324,10 @@ a:hover span:nth-child(4) {
     padding-top: 0;
   }
   .proyectos img {
-    margin: 20px;
+    width: 100%;
+    max-width: 320px;
+    min-width: 200px;
+    margin: 40px 0 0 0;
   }
   .section8bis-container {
     width: 90%;
@@ -1351,6 +1362,7 @@ a:hover span:nth-child(4) {
   .home h2 {
     font-size: 2.5em;
     padding: 10px;
+    margin-bottom: 60px;
   }
   .section2-texto h3,
   .section2-textoinvi h3,
@@ -1415,8 +1427,14 @@ a:hover span:nth-child(4) {
     padding: 0px;
     /**ERA PARA LAS DEL 7 PERO CREO QUE SE MOVIERON LAS DEL 5**/
   }
+  .section8 h3 {
+    padding: 20px 10px;
+  }
+  .proyectos h3 {
+    padding: 0px 0 16px 0;
+  }
   .datoscontacto p {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
@@ -1433,16 +1451,21 @@ a:hover span:nth-child(4) {
     padding: 0 10px;
   }
   .home h2 {
+    font-size: 2em;
     padding: 0px;
+    margin-bottom: 0px;
   }
   .section2-texto {
-    padding-top: 70px;
+    padding-top: 40px;
   }
   .section3-imagen img {
     max-width: 120px;
   }
   .section4 {
     padding: 10px 0;
+  }
+  .soy {
+    padding: 20px 0;
   }
 }
 /*# sourceMappingURL=scss.css.map */

@@ -1,4 +1,4 @@
-// MOUSE SCROLL DOWN DESAPARECE AL HACER CLICK
+//MOUSE SCROLL DOWN DESAPARECE AL HACER CLICK
 const ScrollDwn = document.querySelector(".btndown");
 
 ScrollDwn.addEventListener("click", () =>{
