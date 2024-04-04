@@ -14,6 +14,7 @@ function App() {
       <h1 className="text-slate-700">Sublimatek {count}</h1>
       <BsHandbag/>
       <button onClick={inc}>+1</button>
+      <p>hola</p>
       </div>
       
     </>
