@@ -7,19 +7,19 @@ export const categoriesDropdown = [
     },
     {
       id: 2,
-      title: "Consulting",
+      title: "Colección Gamer",
       path: "./consulting",
       cName: "submenu-item",
     },
     {
       id: 3,
-      title: "Design",
+      title: "Colección Anime",
       path: "./design",
       cName: "submenu-item",
     },
     {
       id: 4,
-      title: "Development",
+      title: "Colección Sports",
       path: "./development",
       cName: "submenu-item",
     },
