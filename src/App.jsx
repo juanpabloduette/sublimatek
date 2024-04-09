@@ -1,5 +1,6 @@
 import { BsHandbag } from 'react-icons/bs';
 import useStore from './store/counter';
+import MapGamer from './components/MapGamer';
 
 function App() {
 	//  const counter = useStore(state => state.count)
@@ -21,6 +22,7 @@ function App() {
 			<button onClick={dec} className='bg-slate-700 text-slate-50 p-5'>
 				-1
 			</button>
+			<MapGamer />
 		</>
 	);
 }

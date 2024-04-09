@@ -4,14 +4,14 @@
         "id": 1050,
         "title": "Hernan Cattaneo - Live",
         "img": "./img-products/1050a.jpg",
-        "category": "clubber"
+        "category": ["clubber", "Hernan"]
     },
     {
         "price": 5000,
         "id": 1051,
         "title": "Hernan Cattaneo - Original",
         "img": "./img-products/1051a.jpg",
-        "category": "clubber"
+        "category": ["clubber", "Hernan"]
         
     },
     {
@@ -19,7 +19,7 @@
         "id": 1052,
         "title": "Hernan Cattaneo - Soud Beat",
         "img": "./img-products/1052a.jpg",
-        "category": "clubber"
+        "category": ["clubber", "Hernan"]
         
     },
     {
@@ -27,7 +27,7 @@
         "id": 1053,
         "title": "Boris Brejcha",
         "img": "./img-products/1053a.jpg",
-        "category": "clubber"
+        "category": ["clubber", "Boris"]
         
     },
     {
@@ -35,7 +35,7 @@
         "id": 1054,
         "title": "John Digweed",
         "img": "./img-products/1054a.jpg",
-        "category": "clubber"
+        "category": ["clubber", "John"]
         
     },
     {
