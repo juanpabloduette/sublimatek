@@ -3,7 +3,7 @@ import useStore from '../store/counter';
 import Button from '@mui/material/Button';
 
 const Home = () => {
-	const { count, inc, dec, reset } = useStore();
+	const { inc, dec, reset } = useStore();
 	return (
 		<>
 			<button onClick={inc} className='bg-black text-slate-50 p-5'>
@@ -17,6 +17,10 @@ const Home = () => {
 			</button>
 			<Button variant='contained'>Hola</Button>
 			<Menu />
+
+			<Button variant='outlined' color='primary'>
+				Hola
+			</Button>
 		</>
 	);
 };
