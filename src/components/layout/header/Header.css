@@ -9,7 +9,7 @@ nav{
 }
 
 .nav_items a{
-    padding: 10px;
+    /* padding: 10px 0 10px 10px; */
     color: #efefef;
     position: relative;
     text-decoration: none;

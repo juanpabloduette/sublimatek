@@ -14,7 +14,14 @@ const Header = () => {
         <div className="text-stone-50"><img src={logo} alt="Sublimatek"/></div>
         <nav className={`nav_items ${isOpen && "open"}`}>
                 <Link to='/' onClick={ () => setIsOpen(!isOpen)}>Inicio</Link>
-                <Link to='/' onClick={ () => setIsOpen(!isOpen)}>Categorias</Link><IoIosArrowDown  color="white"/>
+                <div className="flex items-center">
+                    <div>
+                        <Link to='/Categories' onClick={ () => setIsOpen(!isOpen)}>Categorias</Link>
+                    </div>
+                    <div>
+                        <IoIosArrowDown  color="white"/> 
+                    </div>
+                </div>
                 <Link to='/' onClick={ () => setIsOpen(!isOpen)}>Como comprar</Link>
                 <Link to='/' onClick={ () => setIsOpen(!isOpen)}>Mayoristas</Link>
                 <Link to='/Contacto' onClick={ () => setIsOpen(!isOpen)}>Contacto</Link>
