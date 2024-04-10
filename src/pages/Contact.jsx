@@ -1,7 +1,11 @@
-const Contact = () => {
-  return (
-    <div>Contacto</div>
-  )
-}
+import Layout from '../components/layout/main/Layout';
 
-export default Contact
+const Contact = () => {
+	return (
+		<Layout headerVisible={true} footerVisible={true}>
+			<div>Contacto</div>
+		</Layout>
+	);
+};
+
+export default Contact;

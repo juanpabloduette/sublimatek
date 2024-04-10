@@ -1,9 +1,14 @@
 import { Menu as MenuIcon } from '@mui/icons-material';
 import useStore from '../store/counter';
+<<<<<<< HEAD
 import { useState } from 'react';
 import { Menu,MenuItem, Button} from '@mui/material';
 import { IoIosArrowDown } from "react-icons/io"; 
 
+=======
+import { Button } from '@mui/material';
+import Layout from '../components/layout/main/Layout';
+>>>>>>> 09ae14552d32087c38f3be51566dc4f00c6db600
 
 const Home = () => {
 	const { inc, dec, reset } = useStore();
@@ -17,6 +22,7 @@ const Home = () => {
 	}
 	return (
 		<>
+<<<<<<< HEAD
 			<button onClick={inc} className='bg-black text-slate-50 p-5'>
 				+1
 			</button>
@@ -46,6 +52,25 @@ const Home = () => {
 
 
 			
+=======
+			<Layout footerVisible={true} headerVisible={true}>
+				<button onClick={inc} className='bg-slate-400 text-slate-50 p-5'>
+					+1
+				</button>
+				<button onClick={reset} className='bg-red-600 text-slate-50 p-5'>
+					reset
+				</button>
+				<button onClick={dec} className='bg-slate-700 text-slate-50 p-5'>
+					-1
+				</button>
+				<Button variant='contained'>Hola</Button>
+				<Menu />
+
+				<Button variant='outlined' color='primary'>
+					Hola
+				</Button>
+			</Layout>
+>>>>>>> 09ae14552d32087c38f3be51566dc4f00c6db600
 		</>
 	);
 };
