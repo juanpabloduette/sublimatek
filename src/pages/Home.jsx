@@ -20,8 +20,13 @@ const Home = () => {
 				<Button variant='contained'>Hola</Button>
 				<Menu />
 
-				<Button variant='outlined' color='primary'>
-					Hola
+				<Button
+					sx={{
+						backgroundColor: '#ffffff',
+						fontFamily: '-moz-initial',
+					}}
+					variant='outlined'>
+					Holass
 				</Button>
 			</Layout>
 		</>
