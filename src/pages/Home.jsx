@@ -1,10 +1,21 @@
-import { Menu } from '@mui/icons-material';
+import { Menu as MenuIcon } from '@mui/icons-material';
 import useStore from '../store/counter';
-import { Button } from '@mui/material';
+import { useState } from 'react';
+import { Menu, MenuItem, Button } from '@mui/material';
+import { IoIosArrowDown } from 'react-icons/io';
+
 import Layout from '../components/layout/main/Layout';
 
 const Home = () => {
 	const { inc, dec, reset } = useStore();
+
+	const [open, setOpen] = useState(null);
+	const handleClose = () => {
+		setOpen(null);
+	};
+	const handleClick = e => {
+		setOpen(e.currentTarget);
+	};
 	return (
 		<>
 			<Layout footerVisible={true} headerVisible={true}>
@@ -20,13 +31,8 @@ const Home = () => {
 				<Button variant='contained'>Hola</Button>
 				<Menu />
 
-				<Button
-					sx={{
-						backgroundColor: '#ffffff',
-						fontFamily: '-moz-initial',
-					}}
-					variant='outlined'>
-					Holass
+				<Button variant='outlined' color='primary'>
+					Hola
 				</Button>
 			</Layout>
 		</>
