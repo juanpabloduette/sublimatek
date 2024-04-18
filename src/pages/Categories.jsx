@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import Layout from '../components/layout/main/Layout';
+import Card from '../components/shared-components/card/Card';
+import { BiSolidDiscount } from 'react-icons/bi';
 
 const Categories = () => {
 	const [data, setData] = useState(null);
@@ -12,18 +14,14 @@ const Categories = () => {
 	}, []);
 	return (
 		<Layout headerVisible={true} footerVisible={true}>
-			<div className='flex justify-center flex-col'>
+			<div className="flex justify-center flex-col">
 				{data?.map((product, index) => (
-					// {console.log(product)}
-					<div key={index}>
-						<img src={product.img} alt={product.title} className='w-40' />
-						<div>
-							<p>{product.title}</p>
-						</div>
-						<div>
-							<p>{product.id}</p>
-						</div>
-					</div>
+					<Card
+						key={index}
+						props={product}
+						tagIcon={<BiSolidDiscount />}
+						tagDescription="Envio Gratis"
+					/>
 				))}
 			</div>
 		</Layout>
